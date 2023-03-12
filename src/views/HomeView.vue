@@ -7,7 +7,7 @@ import {ref} from "vue";
 const teste = ref({})
 
 onMounted(async () =>{
-  teste.value = await PeopleApi.get(1)
+  teste.value = await PeopleApi.detail(1)
 })
 
 </script>
